@@ -1,0 +1,332 @@
+.l-header{
+
+    @include desktop{
+        margin-bottom: 200px;
+    }
+}
+
+.l-header_top{
+    $parent:&;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 2;
+
+
+
+    @include mobile{
+      
+    }
+
+    @at-root .g-container{
+
+
+        #{$parent} &{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            @include desktop{
+                padding: 20px;
+            }
+        }
+        
+
+        #{$parent}.sticky &{
+            background-color: $white;
+
+            @include mobile{
+                margin: 0;
+            }
+
+            .m-navigation a{
+                color: $blue;
+
+                &:hover{
+                    background-color: transparentize($blue,0.9);
+                }
+            }
+        }
+        
+        
+
+    }
+
+    .l-header_top_left{
+        .m-logo{
+            width:76px;
+            @include desktop{
+                width: 121px;
+            }
+        }
+    }
+
+    .l-header_top_right{
+        display: flex;
+        align-items: center;
+
+        .m-navigation{
+            @include mobile{
+                display: none;
+            }            
+        }
+    }
+}
+
+
+.l-header_body{
+
+    @include desktop{
+        display: flex;
+        
+    }
+
+    @include mobile{
+        margin-top: 75px;
+    }
+
+    .l-header_body_first{
+
+        width: 72px;
+        padding-bottom: 150px;
+        background-color: $grey;
+        @include mobile{
+            display: none;
+        }
+
+        .l-header_body_first_line{
+            height: 150px;
+            width: 2px;
+            background: $white;
+            margin: 0 auto;
+            margin-bottom: 46px;
+
+            @include lgdesktop{
+              height: 331px;  
+            }
+        }
+    }
+
+    .l-header_body_second{
+
+        max-width: 700px;
+        margin-top: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        @include desktop{
+            position: relative;
+            left: 31px;
+            justify-content: flex-start;
+
+        }
+
+        .left{
+            @include desktop{
+                order: 2;
+                align-self: flex-end;
+                position: relative;
+            }
+
+            .l-header_body_second_img{
+                @include mobile{
+                    width: 121px;
+                }
+
+                @include desktop{
+                    width: 300px;
+                    margin-left:-240px;
+                    position: relative;
+                    left: 100px;
+                }
+                
+                @include lgdesktop{
+                    width: 400px;
+                }
+            }
+
+            
+        }
+
+        
+
+        .right{
+            @include mobile{
+                padding-left: 20px;
+            }
+
+            @include desktop{
+            }
+
+
+            .l-header_body_second_name{
+                @include ff('rufina');
+                text-transform: uppercase;
+                font-size: 1.875em;
+                margin: 0;
+                margin-bottom: 10px;
+
+                @include desktop{
+                    font-size: 3.4375em;
+                }
+            }
+
+            .l-header_body_second_title{
+                font-size: 1.125em;
+                max-width: 210px;
+                @include desktop{
+                    max-width: 320px;
+                    font-size: 1.5em;
+                }
+            }
+
+            .l-header_body_second_features{
+                position: absolute;
+                bottom: 80px;
+                width: 600px;
+
+                z-index: 1;
+                @include mobile{
+                    display: none;
+                }
+            }
+        }
+        
+
+        
+    }
+
+    .l-header_body_third{
+
+        
+        background-color: $blue;
+        color: $white;
+        
+        @include mobile{
+            text-align: center;
+            padding: 30px 25px;
+            font-size: 1.125em;
+            .btn-warning{
+                display: block;
+                max-width: 325px;
+                margin: 0 auto;
+            }
+            
+        }
+
+
+        @include desktop{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 150px;
+            .l-header_body_third_title{
+                font-size: 2.1875em;   
+                max-width: 530px;
+                
+                @include lgdesktop{
+                    font-size: 3em;                  
+                    margin-bottom: 40px; 
+                }
+            }
+
+            .btn-warning{
+                font-size: 1.5em;
+            }
+
+        }
+    }
+
+
+    .l-header_body_fourth{
+
+        @include desktop{
+            display: none;
+        }
+    }
+}
+
+
+
+.l-testimonial{
+
+    
+    .g-container{
+        display: flex;
+
+    }
+
+    .l-testimonial_first{
+
+        flex:1;
+        .l-testimonial_img{
+            max-width: 412px;
+            width:100%;
+        }
+    }
+
+    .l-testimonial_second{
+        flex:2;
+        background-color: $blue;
+        @include desktop{
+        }
+
+        .l-testimonial_title{
+            color: $white;
+
+            @include desktop{
+                font-size: 2.25em;
+            }
+        }
+    }
+
+} // end of l-testimonial
+
+
+.l-footer{
+    background: $grey;
+    color: $white;
+    padding: 28px 0;
+
+    .l-footer_copyright{
+        font-size:  0.875em;
+    }
+
+   
+    
+    @include mobile{
+        text-align: right;
+        .l-footer_socialnav{
+            margin-top: 14px;
+        }
+    }
+
+
+    @include desktop{
+
+        padding: 50px 0;
+        .g-container{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+} // end of l-footer
+
+
+
+
+
+
+.l-temp{
+    height: 1000px;
+}
+
+
+
+

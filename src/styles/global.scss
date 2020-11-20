@@ -1,0 +1,95 @@
+/**
+ * Style Guide 
+ */
+
+/* Color */
+$yellow:#FEA801;
+$orange:#FEA801;
+$blue:#6666B5;
+$black:#000000;
+$grey:#3B4356;
+$white:#ffffff;
+$lightwhite:#F6F6FF;
+
+
+// breaks points 
+$mqBreakPoints: (
+    mobile:  576px,
+    tablet:  959px,
+    desktop: 960px,
+);
+
+
+@mixin mobile{
+    @media(max-width: map-get($mqBreakPoints, "tablet")){
+        @content;
+    }  
+}
+
+@mixin desktop{
+    @media(min-width: map-get($mqBreakPoints, "desktop")){
+        @content;
+    }  
+}
+
+@mixin lgdesktop{
+    @media(min-width:1200px){
+        @content;
+    }  
+}
+
+@function fw($type){
+    @if($type == 'bold') {
+        @return 700;
+    }
+    @else {
+        @return 'normal';
+    }
+}
+
+@mixin ff($name,$fw:'normal') {
+    @if ($name == 'sans') {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: fw($fw);
+    }
+    @else if ($name == 'serif'){
+         font-family: 'PT Serif', serif;
+         font-weight: fw($fw);
+    }
+    @else if ($name == 'rufina'){
+        font-family: 'Rufina', serif;
+        font-weight: fw($fw);
+    }
+}
+
+
+
+
+.g-mobileOnly{
+    @include desktop(){
+        display: none;
+    }
+}
+
+.g-desktopOnly{
+    @include mobile(){
+        display: none;
+    }
+
+}
+
+
+
+.g-container{
+    max-width: 1300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    
+    
+    @include desktop{
+        margin-left: 72px;
+    }
+
+}

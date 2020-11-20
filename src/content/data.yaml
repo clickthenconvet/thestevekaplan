@@ -1,0 +1,109 @@
+name: Steve kaplan
+title: SEM, Google, Facebook & Bing Ads Connoisseur
+calltoaction_title: Sign up for a free Google & Facebook Ads audit worth <strong>$300</strong> 
+calltoaction_btn: Get your free audit
+
+feature_bullets:
+  -
+    name: Leads and Sales <span class="g-desktopOnly">Generated</span>
+    value: "72000"
+  -
+    name: Accounts Setup and Managed
+    value: "112"
+  -
+    name: Ads Audits Completed
+    value: "+ 400"
+
+testimonial_title: Here's What People Have to Say
+testmonials:
+    -
+      name: Dustin Miller 
+      title: VP, Local Marketing
+      details: Steve has a great understanding of online marketing and paid search in particular. We've worked together in the past and he has helped manage a number of accounts during our engagement together. He cares about getting clients results and does his best to go out of his way to make this possible. What more can you ask for in an SEM resource!
+    -
+      name: Oscar Guerrero 
+      title: Email and Content Marketing Associate  
+      details: Steve has not only shown constant proficiency in all aspects of SEM but has also been an excellent mentor to those who want to learn from him. He likes to take on challenges head on and is a creative problem solver. I strongly recommend Steve to anyone looking for the latest techniques and strategies in SEM.
+    -
+      name: Kenneth Robinson   
+      title: Lead UI/UX Designer
+      details: In our year working together Steve has impressed me with his analytical skills and ability to understand what design and conversion elements will convert visitors to leads. Steve is a pleasure to work with and always keeps his word. I’ve learned a ton about marketing and how design ties into marketing to a whole new level.
+    
+    -
+      name: Moshiur Rahman 
+      title: Network & System Administrator
+      details: Steve is an excellent Manager. He provided me with all the needed material to produce a great support for his project. Hope to work with him again. Clear in his instructions, knowledgeable about the project, very prompt and responsive in communication. Thanks.
+    
+    -
+      name: Mary Rose Somera-Cadiente   
+      title: CEO Coefficients
+      details: I am so grateful that I met Steve and eventually work with him to champion Market Mongoose projects. I would say that my creativity and self-confidence as a business executive got a boost and the projects that he gave us had a large impact to our company as well. What I like most about Steve is that he is humble and unassuming, yet has a remarkable talent in envisioning and strategizing better business platforms. My team here in the Philippines is very inspired working with this good man with a truly exceptional talent.
+    
+    -
+      name: Naresh Verma  
+      title: VP Marketing
+      details: Steve is a great professional and a wonderful human. He brings in a lot of energy, values and passion at work. I have known him to be very helpful and empowering. He is a leader who likes to connect with the team while leading them to higher performance. 
+
+    -
+      name: Ashley Hall 
+      title: SEM Consultant
+      details: Steve is a champion of digital marketing, but he also understands people. His observations of how the web and people come together as well as his travel experiences make him an authority in this field. His ability to find the right people for the right job in the right part of the world is uncanny! I look forward to many future projects with Steve and HIGHLY RECOMMEND him whether you are a veteran or a new business looking for insightful consulting!
+
+
+services_section:
+  title: What I do
+  details: "Drive growth and lower cost per acquisition costs with pinpoint accuracy."
+  services:
+    - 
+      name: Audits and Roadmaps
+      img: ./Roadmaps.png
+      details: >
+        Dissecting and analyzizing every aspect of your paid advertising from 
+        geographic targeting to keyword selection to audience definitions and 
+        account structure. If you're doing shopping I will analyze your data feed, 
+        conduct a merchant center and analyze your shopping campaigns.
+    - 
+      name: Audience Definition
+      img: ./Definition.png
+      details: >
+        By defining your audience's personas and select a targeting criteria
+        that matches the individuals that are searching for your products and 
+        services or who may be searching in the future. This includes generating 
+        dynamic remarketing campaigns for shopping and Facebook.
+    - 
+      name: Full Service Management
+      img: ./Full_Service_Management.png
+      details: > 
+        Managing paid search, paid social, and shopping campaigns and 
+        works with a team of specialists on landing page development, 
+        graphic and video elements, and tracking and data analysis to bring you 
+        a complete solution while interfacing with one professional.
+    - 
+      name: Tracking and Tag Management
+      img: ./Tracking_and _Tag Management.png
+      details: > 
+        No matter how advanced your tracking challenges are you can do 
+        better by navigating advanced funnel setup and revenue attribution.
+
+
+scetion_four: 
+  title: Master Facebook Ads, Bing Ads or Google Ads Starting...
+  details: No matter the size of your organization or the stage of growth you're in,  I can help. Your growth and success don't need to wait any longer. 
+  details_strong: Get in touch now and get clarity on your direction with a free audit. Let's do this.
+
+company_section:
+  title: I keep good company
+
+section_five:
+  strong: Project
+  title: Altel adWords Set up/Management
+  details: Steve has done a wonderful job managing campaigns for our clients. He is a great communicator and helps you understand Google Ads even if you're new to the paid media world. Thanks for all the help, Steve! 
+
+section_six:
+  title: Get it all done right and get results!
+  details: Steve is an expert at defining the correct audience and geographic locations, finding pockets of interested audiences with obscure and obvious search intent, and drawing those visitors in to make a sale or get the phone ringing. All the technical aspects that go along with these over-arching goals are part of my expertise. 
+  featured:
+    - Persona Definition
+    - Data Feed Optimization
+    - Keyword Research
+    - Ad Copywriting
